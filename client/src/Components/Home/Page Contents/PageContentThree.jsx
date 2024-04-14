@@ -12,7 +12,7 @@ const PageContentThree = () => {
               {/* Adjusted max-w-xl to max-w-3xl for wider paragraph */}
               <h1 className="text-3xl font-extrabold sm:text-5xl">
                 Aparna Kanopy Tulip
-                <strong className="font-extrabold text-sky-500 sm:block">
+                <strong className="font-extrabold text-gray-700 sm:block text-3xl pt-3">
                   {" "}
                   About Us.{" "}
                 </strong>
