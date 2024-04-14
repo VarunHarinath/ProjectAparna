@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import Img1 from "../../../assets/Images/img1.png";
 
 const images = [
-  "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+  Img1,
   "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
   "https://images.unsplash.com/photo-1471357674240-e1a485acb3e1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
 ];

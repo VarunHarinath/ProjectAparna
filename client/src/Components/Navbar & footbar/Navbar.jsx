@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Announcement from "../Home/Page Contents/Announcement";
+import Logo from "../../assets/logos/logo.jpg";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -21,9 +22,8 @@ const Navbar = () => {
           <div className="flex h-16 items-center justify-between">
             <div className="flex-1 md:flex md:items-center md:gap-12">
               <Link to="/" className="block text-white">
-                {/* Logo or home link */}
+                <img src={Logo} alt=" img" className=" h-10 w-18" />
                 <span className="sr-only">Home</span>
-                Logo
               </Link>
             </div>
             <div className="-mr-2 flex items-center md:hidden">
