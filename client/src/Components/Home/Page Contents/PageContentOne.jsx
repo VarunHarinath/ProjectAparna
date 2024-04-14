@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import Img1 from "../../../assets/Images/img1.png";
-=======
+
 import { useState } from "react";
->>>>>>> 95dbe97c2d74f79a1cc14516ff2934d276f13437
 
 const images = [
   Img1,
@@ -30,8 +28,9 @@ const PageContentOne = () => {
           {images.map((image, index) => (
             <div
               key={index}
-              className={`carousel-slide absolute inset-0 w-full h-full transition-opacity duration-700 ${index === activeIndex ? "opacity-100" : "opacity-0"
-                }`}
+              className={`carousel-slide absolute inset-0 w-full h-full transition-opacity duration-700 ${
+                index === activeIndex ? "opacity-100" : "opacity-0"
+              }`}
             >
               <img
                 src={image}
@@ -90,10 +89,11 @@ const PageContentOne = () => {
             <button
               key={index}
               onClick={() => setActiveIndex(index)}
-              className={`block w-3 h-3 rounded-full ${index === activeIndex
-                ? "bg-blue-500"
-                : "bg-white border border-gray-300"
-                }`}
+              className={`block w-3 h-3 rounded-full ${
+                index === activeIndex
+                  ? "bg-blue-500"
+                  : "bg-white border border-gray-300"
+              }`}
             ></button>
           ))}
         </div>
