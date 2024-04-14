@@ -11,19 +11,21 @@ const PageContentThree = () => {
               {" "}
               {/* Adjusted max-w-xl to max-w-3xl for wider paragraph */}
               <h1 className="text-3xl font-extrabold sm:text-5xl">
-                VGN Brixton
+                Aparna Kanopy Tulip
                 <strong className="font-extrabold text-sky-500 sm:block">
                   {" "}
                   About Us.{" "}
                 </strong>
               </h1>
               <p className="mt-4 sm:text-xl/relaxed">
-                VGN Brixton is one of the largest and most prestigious projects
-                in Chennai developed by the VGN Developers. The large campus has
-                multiple towers and ample amenities. It is located in
-                Irungatukottai SIPCOT with 800+ apartments consisting of 2, 3
-                BHK in the campus. The campus has a number of indoor and outdoor
-                facilities.
+                Aparna Kanopy Tulip project was built by the well-known
+                developer Aparna Constructions and Estates Pvt. Ltd. Amenities
+                such as Power Back Up, Fire Fighting Equipment, Air Conditioned,
+                Gymnasium, Swimming Pool, Lift, Flower Gardens, Reserved
+                Parking, Internet/Wi-Fi Connectivity, Outdoor Tennis Courts at
+                Aparna Kanopy Tulip. The exact address of this famous project is
+                Gundlapochampalli, Hyderabad, Telangana. Enjoy the luxury of
+                living with all modern conveniences in Aparna Kanopy Tulip.
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <Link

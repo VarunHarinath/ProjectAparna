@@ -1,4 +1,3 @@
-
 const PageContentTwo = () => {
   return (
     <>
@@ -6,17 +5,15 @@ const PageContentTwo = () => {
         <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center rounded-2xl">
           <div className="p-8 md:p-12 lg:px-16 lg:py-24">
             <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-
               <h2 className="font-bold text-2xl md:text-3xl bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text ">
-                Aparna</h2>
+                Aparna Kanopy Tulip
+              </h2>
 
               <p className="hidden text-gray-500 md:mt-4 md:block text-xl">
-                Welcome to Aparna, invariably one of the best livings in
-                outskirts of chennai. We from residents association welcome
-                you. We also would encourage you to go through all the sections
-                of the website in detail so that you are aware of the
-                facilities, services, rules & regulations and standard
-                procedures made available for the residents.
+                Favourably located in Kompally in Hyderabad, Aparna Kanopy Tulip
+                is a meticulously planned project Spanning across 14 Acre, the
+                project is well-spaced out. The project has a total of 660
+                units, constructed with robust quality.
               </p>
 
               {/* <div className="mt-4 md:mt-8"></div> */}
